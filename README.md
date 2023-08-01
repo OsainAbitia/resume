@@ -1,12 +1,8 @@
 # minimal-latex-cv
 
-Minimal CV template using LaTeX.
+Minimal CV template using LaTeX using Jan Vorisek template.
 
-# Preview
-[![PDF Result](https://jan.vorisek.me/images/main-1.jpg "PDF Result")](minimal-latex-cv.pdf)
-
-
-## Authors
+## Template authors
 
 * **Jan Vorisek** <[**jan@vorisek.me**](mailto:jan@vorisek.me)>
 
