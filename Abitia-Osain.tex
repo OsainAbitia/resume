@@ -277,7 +277,6 @@
 	\begin{minipage}[t]{0.3\textwidth}\hrule height 0pt width 0pt%
 		\small%
 		\icontext{Github}{12}{\href{https://github.com/OsainAbitia}{github.com/OsainAbitia}}\\
-		\icontext{Twitter}{12}{\href{https://twitter.com/@osainabitia}{X.com/@osainabitia}}\\
 	\end{minipage}%
 	
 	% manage space by reducing font size
@@ -290,10 +289,10 @@
 	
 	\cvsect{Who Am I?}%
 	\begin{minipage}[t]{1\textwidth}%
-		I'm a software engineer and team lead certified as an AWS Solutions Architect, with a 
-		strong passion on building products that impact users by solving real world needs.
-		I have a strong background managing cloud technologies like AWS, GCP, and Azure. Designing
-		and building highly secure, reliable, and scalable systems.
+		I'm a certified AWS Solutions Architect and software engineer with a passion for 
+		leading teams to build impactful products that address real-world needs. With a
+		strong background in managing cloud technologies across AWS, GCP, and Azure, I
+		specialize in designing and building secure, reliable, and scalable systems.
 	\end{minipage}%
 	\hfill
 	\vspace{1cm}
@@ -321,7 +320,7 @@
 	\vspace{1cm}
 
 	%----------------------------------------------------------------------------------------
-	%	EXPERIENCE - List activities and be quantitative and order technologies for SWE
+	%	EXPERIENCE
 	%----------------------------------------------------------------------------------------
 	
 	\cvsect{Experience}
@@ -329,29 +328,36 @@
 		\entry
 		{Mar 2022 – Present}
 		{Senior Software Engineer 2 - Platform Team}
-		{Apli Jobs} % Be more explicit on the job description  with specific examples.
-		{I managed projects from initial 
-		documentation and proposals to the creation of well-defined, scalable, and 
-		highly available architectures. I established strong CI/CD pipelines that 
-		automated processes such as testing and code quality assurance, significantly 
-		enhancing the developer experience.\\
-			\texttt{Python}\slashsep\texttt{Docker}\slashsep\texttt{AWS}\slashsep\texttt{Docker}\slashsep\texttt{Terraform}\slashsep\texttt{GCP}\slashsep\texttt{GitHub}}
+		{Apli Jobs} % Mention Infrastructure standardization, Dockerize services, configuring API Gateways, 
+		{In this role, I led process standardization for infrastructure creation using Terraform modules,
+		reducing the development cycle by 80\%. This efficiency gain allowed me to take the initiative to
+		start Dockerizing services and deploy them on ECS, significantly streamlining deployment processes.\\
+		\hfil\break
+		I also designed and exposed REST APIs through API Gateway, enhancing system integration. To ensure
+		system reliability under load, I introduced Stress Testing with Artillery, creating complex API
+		workflows to simulate real user interactions, which identified bottlenecks and accelerated service
+		release times.\\
+			\texttt{AWS}\slashsep\texttt{Python}\slashsep\texttt{Docker}\slashsep\texttt{GitHub}\slashsep\texttt{Artillery Load Tests}\slashsep\texttt{Terraform}}
 		\entry
 		{Jan 2022 – Mar 2022}
-		{Cloud Engineer AWS Specialist}
-		{Apli Jobs} % Mention collaboration with teams, projects like CME, bb8
-		{I've led pivotal projects in infrastructure
-		migration and optimization, successfully migrating critical applications to AWS
-		within Docker containers for a comprehensive cloud modernization initiative. I
-		played a role in ensuring ISO 27001 certification compliance and presented
-		cloud-related evidence, emphasizing security protocols.
+		{Software Engineer - Cloud Team}
+		{Apli Jobs}
+		{As the first and only Cloud Engineer during my initial 6 months at Apli, I spearheaded the design
+		and implementation of cloud-based architecture for cross-team projects, collaborating with Data Science,
+		Product, and Engineering teams. Utilizing AWS services such as EMR, ECS, DynamoDB, Lambda, AWS Backup,
+		RDS, and Redis, I also successfully implemented cost optimization mechanisms that reduced the company's
+		costs in around 10\% for the first year.\\
 		\hfil\break
-		Leveraging DevOps, I orchestrated CI/CD pipelines using AWS Elastic Beanstalk and
-		ECS upgrades. I achieved substantial cost savings, operational efficiency, network
-		security enhancements, and scalability. These initiatives aligned our tech framework
-		with business imperatives, fostering sustained growth and a competitive edge in the
-		dynamic realm of cloud technology.\\
-			\texttt{AWS}\slashsep\texttt{CI/CD}\slashsep\texttt{Python}\slashsep\texttt{Docker}\slashsep\texttt{Terraform}\slashsep\texttt{GCP}\slashsep\texttt{GitHub}}
+		I initiated and led internal efforts to bolster company culture and enforce security protocols.
+		I was a key member of the committee that introduced the on-call program to the Engineering team, which
+		resulted in a response time against incident of less than 4 hours. I also led the ISO audit and
+		certification process, focusing on ensuring our architecture met the highest standards of security, 
+		scalability, and reliability, which culminated in achieving ISO 27k1.\\
+		\hfil\break
+		As the team expanded, I took on a mentor and leadership role, establishing processes that improved
+		code quality, including enhanced documentation, automated security checks in CI/CD, and regular
+		knowledge-sharing meetings.\\
+			\texttt{AWS}\slashsep\texttt{Python}\slashsep\texttt{Docker}\slashsep\texttt{GitHub}\slashsep\texttt{Terraform}\slashsep\texttt{GCP}}
 		\entry
 		{Feb 2021 – Jan 2022}
 		{Backend Developer + AWS Cloud Engineer}
@@ -362,33 +368,36 @@
 		AppSync, DynamoDB, SNS, and SQS. Collaborating closely with customers, I addressed
 		change requests and implemented new functionalities, enhancing our services to
 		meet evolving needs.\\
-			\texttt{Node.js}\slashsep\texttt{Express}\slashsep\texttt{Sequelize}\slashsep\texttt{AWS}\slashsep\texttt{GraphQL}}
+			\texttt{Node.js}\slashsep\texttt{Express}\slashsep\texttt{Sequelize}\slashsep\texttt{AWS}\slashsep\texttt{GraphQL}\slashsep\texttt{Python}}
 	\end{entrylist}
 	\\\\
 
 	%----------------------------------------------------------------------------------------
-	%	Education - Move to top alongside the hard skills
+	%	Education
 	%----------------------------------------------------------------------------------------
 
 	\cvsect{Education and Personal Projects}
 	\begin{entrylist}
 		\entry
+		{2022}
+		{NFarm}
+		{Zencon International Hackathon}
+		{Developed a basic MVP for a blockchain-based digital traceability system for cattle using NFTs
+		and smart contracts, enabling farmers to ensure product quality and reduce food waste. Secured
+		first place in the NFTs category.}
+		\entry
+		{2019}
+		{Lung Cancer Detection System with AI - Damai}
+		{Expo Science International}
+		{Developed an MVP system using Convolutional Neural Networks and image processing to detect lung
+		cancer in its early stages.Selected as one of the top 100 projects representing Mexico at Expo
+		Science International in Abu Dhabi, UAE.}
+		\entry
 		{2017 – 2020}
 		{Software Engineering}
 		{Universidad Politécnica de Durango (UNIPOLI)}
 		{Graduated with a 9.42 score.}
-		\entry
-		{2020}
-		{Seeds for the Future}
-		{Huawei}
-		{Part of the 20 candidates selected at National level for direct training on new technologies such as AI,
-		Cloud Computing, Internet of Things, and 5G network by Huawei.}
-		\entry
-		{2019}
-		{Lung Cancer Detection System with AI - Damai}
-		{Universidad Politécnica de Durango (UNIPOLI)}
-		{School project presented on Abu Dhabi (UAE) alongside +100 projects from around the world at Expo
-		Science International}
 	\end{entrylist}%
+	\\\\
 	
 \end{document}
