@@ -7,3 +7,5 @@ Minimal CV template using LaTeX using Jan Vorisek template.
 * **Jan Vorisek** <[**jan@vorisek.me**](mailto:jan@vorisek.me)>
 
 Based on CV by [**Jan Küster**](https://github.com/jankapunkt). See his [*original work*](https://github.com/jankapunkt/latexcv).
+
+> Last update: Aug 2024
